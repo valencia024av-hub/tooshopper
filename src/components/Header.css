@@ -1,0 +1,209 @@
+/* Fuente: mejor cargarla en index.html (ver abajo) */
+* { font-family: 'Poppins', sans-serif; }
+
+.header {
+  background-color: white;
+  border-bottom: 1px solid #3d3838;
+  padding: 0.3rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.header.scrolled {
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: saturate(140%) blur(6px);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-color: rgba(0,0,0,0.08);
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 56px;
+}
+
+.logo1 img {
+  max-height: 45px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.nav a {
+  margin: 0 0.75rem;
+  text-decoration: none;
+  color: #413b3b;
+  font-weight: 500;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+.nav a:hover {
+  color: #649724;
+  text-decoration: underline;
+}
+
+.nav a.active {
+  color: #649724;
+  text-decoration: underline;
+}
+
+/* SALE resaltado como “pill” */
+.nav .sale {
+  color: #fff;
+  background-color: #d60000;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-weight: 700;
+  transition: background-color 0.2s ease, transform 0.1s ease-in-out;
+}
+
+.nav .sale:hover {
+  background-color: #b50000;
+  transform: translateY(-1px);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  margin-right: 0.75rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.icon-button:hover,
+.icon-button:focus-visible {
+  color: #d60000;
+  transform: scale(1.15);
+  outline: none;
+}
+
+.auth-link {
+  margin-left: 0.5rem;
+  text-decoration: none;
+  color: #0073e6;
+  font-weight: 500;
+}
+
+.auth-link:hover,
+.auth-link:focus-visible {
+  text-decoration: underline;
+  outline: none;
+}
+
+/* Accesibilidad: foco visible en enlaces del nav */
+.nav a:focus-visible,
+.auth-link:focus-visible {
+  outline: 2px solid #649724;
+  outline-offset: 2px;
+}
+
+/* Responsive básico */
+@media (max-width: 860px) {
+  .nav a { margin: 0 0.5rem; }
+  .logo1 img { max-height: 40px; }
+}
+
+/* Botón del carrito con badge */
+.actions .cart-button {
+  position: relative;
+}
+
+.cart-badge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+  border-radius: 999px;
+  background: #ff3b30; /* rojo vivo */
+  color: #fff;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  font-weight: 700;
+  box-shadow: 0 2px 6px rgba(0,0,0,.15);
+}
+
+/* =========================
+   ⚙️ Parche responsive Header (añadido)
+   ========================= */
+
+/* Asegura layout correcto del nav en desktop */
+.nav { display: flex; align-items: center; gap: 0.25rem; }
+
+/* Tablet y abajo: header en dos filas (logo+acciones arriba, nav abajo) */
+@media (max-width: 992px) {
+  .container {
+    flex-wrap: wrap;
+    row-gap: 6px;
+  }
+
+  /* Orden de bloques sin cambiar tu HTML */
+  .logo1 { order: 1; }
+  .actions { order: 2; margin-left: auto; }
+  .nav { order: 3; width: 100%; margin-top: 6px; }
+
+  .logo1 img { max-height: 40px; height: auto; }
+}
+
+/* Móvil: nav deslizable horizontal + acciones compactas */
+@media (max-width: 768px) {
+  .nav {
+    gap: 0.5rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+    padding-bottom: 4px;
+    scrollbar-width: none; /* Firefox */
+  }
+  .nav::-webkit-scrollbar { display: none; } /* Chrome/Safari */
+
+  .nav a {
+    display: inline-block;
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+
+  .icon-button { font-size: 1.35rem; padding: 6px; }
+
+  /* Mantener visibles login/registro; solo los hacemos más compactos */
+  .actions {
+    gap: 6px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .actions .auth-link {
+    font-size: 13px;
+    line-height: 1.2;
+  }
+}
+
+/* Móviles muy pequeños: compactar paddings */
+@media (max-width: 480px) {
+  .container { padding: 0 12px; }
+  .nav a { padding: 8px 8px; font-size: 13px; }
+}
+
+/* Bonus: subrayado bonito para .nav a.active en desktop */
+@media (min-width: 993px) {
+  .nav a { position: relative; }
+  .nav a.active::after {
+    content: "";
+    position: absolute;
+    left: 0; right: 0; bottom: -6px;
+    height: 2px; background: #649724;
+  }
+}

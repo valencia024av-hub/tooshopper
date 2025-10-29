@@ -1,0 +1,43 @@
+.catalogo-sale {
+  padding: 2rem;
+  background-color: #fff0f0;
+  text-align: center;
+}
+
+.productos-sale {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.producto {
+  background-color: white;
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  width: 200px;
+  transition: transform 0.3s ease;
+}
+
+.producto:hover {
+  transform: scale(1.05);
+}
+
+.producto img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.precio-original {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.precio-descuento {
+  color: red;
+  font-weight: bold;
+}
+
+

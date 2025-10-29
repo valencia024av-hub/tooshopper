@@ -1,0 +1,36 @@
+.catalogo-nueva {
+  padding: 2rem;
+  background-color: #fffdf5;
+  text-align: center;
+}
+
+.productos-nueva {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.producto-nueva {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 160px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.producto-nueva img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.producto-nueva h3 {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.producto-nueva p {
+  font-weight: bold;
+  color: #555;
+}

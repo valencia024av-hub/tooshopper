@@ -1,0 +1,490 @@
+{
+  "items": [
+    {
+      "_id": "polo-basica-blanca-m",
+      "name": "Camiseta Ralph Lauren Básica Blanca (M)",
+      "sku": "POLO-BASICA-BLANCO",
+      "variant": "M",
+      "price": 90000,
+      "images": [
+        "/products/PoloBasica/PoloBasicaFrenteBlanca.jpg",
+        "/products/PoloBasica/PoloBasicaAtrasBlanca.jpg",
+        "/products/PoloBasica/PoloBasicaDetalleBlanca.jpg",
+        "/products/PoloBasica/PoloBasicaDobladaBlanca.jpg"
+      ],
+      "available_stock": 5
+    },
+    {
+      "_id": "polo-basica-blanca-l",
+      "name": "Camiseta Ralph Lauren Básica Blanca (L)",
+      "sku": "POLO-BASICA-BLANCO",
+      "variant": "L",
+      "price": 90000,
+      "images": [
+        "/products/PoloBasica/PoloBasicaFrenteBlanca.jpg",
+        "/products/PoloBasica/PoloBasicaAtrasBlanca.jpg",
+        "/products/PoloBasica/PoloBasicaDetalleBlanca.jpg",
+        "/products/PoloBasica/PoloBasicaDobladaBlanca.jpg"
+      ],
+      "available_stock": 3
+    },
+
+    {
+      "_id": "polo-basica-azul-m",
+      "name": "Camiseta Ralph Lauren Básica Azul (M)",
+      "sku": "POLO-BASICA-AZUL",
+      "variant": "M",
+      "price": 90000,
+      "images": [
+        "/products/PoloBasica/PoloBasicaFrenteAzul.jpg",
+        "/products/PoloBasica/PoloBasicaAtrasAzul.jpg",
+        "/products/PoloBasica/PoloBasicaDetalleAzul.jpg",
+        "/products/PoloBasica/PoloBasicaDobladaAzul.jpg"
+      ],
+      "available_stock": 4
+    },
+    {
+      "_id": "polo-basica-azul-l",
+      "name": "Camiseta Ralph Lauren Básica Azul (L)",
+      "sku": "POLO-BASICA-AZUL",
+      "variant": "L",
+      "price": 90000,
+      "images": [
+        "/products/PoloBasica/PoloBasicaFrenteAzul.jpg",
+        "/products/PoloBasica/PoloBasicaAtrasAzul.jpg",
+        "/products/PoloBasica/PoloBasicaDetalleAzul.jpg",
+        "/products/PoloBasica/PoloBasicaDobladaAzul.jpg"
+      ],
+      "available_stock": 2
+    },
+
+    {
+      "_id": "polo-basica-negra-m",
+      "name": "Camiseta Ralph Lauren Básica Negra (M)",
+      "sku": "POLO-BASICA-NEGRO",
+      "variant": "M",
+      "price": 90000,
+      "images": [
+        "/products/PoloBasica/PoloBasicaFrenteNegra.jpg",
+        "/products/PoloBasica/PoloBasicaAtrasNegra.jpg",
+        "/products/PoloBasica/PoloBasicaDetalleNegra.jpg",
+        "/products/PoloBasica/PoloBasicaDobladaNegra.jpg"
+      ],
+      "available_stock": 6
+    },
+    {
+      "_id": "polo-basica-negra-l",
+      "name": "Camiseta Ralph Lauren Básica Negra (L)",
+      "sku": "POLO-BASICA-NEGRO",
+      "variant": "L",
+      "price": 90000,
+      "images": [
+        "/products/PoloBasica/PoloBasicaFrenteNegra.jpg",
+        "/products/PoloBasica/PoloBasicaAtrasNegra.jpg",
+        "/products/PoloBasica/PoloBasicaDetalleNegra.jpg",
+        "/products/PoloBasica/PoloBasicaDobladaNegra.jpg"
+      ],
+      "available_stock": 3
+    },
+
+    {
+      "_id": "boss-basica-blanca-m",
+      "name": "Camiseta Boss Básica Blanca (M)",
+      "sku": "BOSS-BASICA-BLANCO",
+      "variant": "M",
+      "price": 70000,
+      "images": [
+        "/products/BossBasica/BossBasicaFrenteBlanca.jpg",
+        "/products/BossBasica/BossBasicaAtrasBlanca.jpg",
+        "/products/BossBasica/BossBasicaDetalleBlanca.jpg",
+        "/products/BossBasica/BossBasicaDobladaBlanca.jpg"
+      ],
+      "available_stock": 5
+    },
+    {
+      "_id": "boss-basica-azul-l",
+      "name": "Camiseta Boss Básica Azul (L)",
+      "sku": "BOSS-BASICA-AZUL",
+      "variant": "L",
+      "price": 70000,
+      "images": [
+        "/products/BossBasica/BossBasicaFrenteAzul.jpg",
+        "/products/BossBasica/BossBasicaAtrasAzul.jpg",
+        "/products/BossBasica/BossBasicaDetalleAzul.jpg",
+        "/products/BossBasica/BossBasicaDobladaAzul.jpg"
+      ],
+      "available_stock": 3
+    },
+    {
+      "_id": "boss-basica-negro-m",
+      "name": "Camiseta Boss Básica Negra (M)",
+      "sku": "BOSS-BASICA-NEGRO",
+      "variant": "M",
+      "price": 70000,
+      "images": [
+        "/products/BossBasica/BossBasicaFrenteNegra.jpg",
+        "/products/BossBasica/BossBasicaAtrasNegra.jpg",
+        "/products/BossBasica/BossBasicaDetalleNegra.jpg",
+        "/products/BossBasica/BossBasicaDobladaNegra.jpg"
+      ],
+      "available_stock": 4
+    },
+    {
+      "_id": "boss-basica-negro-l",
+      "name": "Camiseta Boss Básica Negra (L)",
+      "sku": "BOSS-BASICA-NEGRO",
+      "variant": "L",
+      "price": 70000,
+      "images": [
+        "/products/BossBasica/BossBasicaFrenteNegra.jpg",
+        "/products/BossBasica/BossBasicaAtrasNegra.jpg",
+        "/products/BossBasica/BossBasicaDetalleNegra.jpg",
+        "/products/BossBasica/BossBasicaDobladaNegra.jpg"
+      ],
+      "available_stock": 2
+    },
+
+    {
+      "_id": "boss-franja-blanca-m",
+      "name": "Camiseta Hugo Boss con Franja Blanca (M)",
+      "sku": "BOSS-FRANJA-BLANCO",
+      "variant": "M",
+      "price": 80000,
+      "images": [
+        "/products/BossFranja/bossFranjaFrenteBlanca.jpg",
+        "/products/BossFranja/bossFranjaAtrasBlanca.jpg",
+        "/products/BossFranja/bossFranjaDetalleBlanca.jpg",
+        "/products/BossFranja/bossFranjaDobladaBlanca.jpg"
+      ],
+      "available_stock": 4
+    },
+    {
+      "_id": "boss-franja-azul-l",
+      "name": "Camiseta Hugo Boss con Franja Azul (L)",
+      "sku": "BOSS-FRANJA-AZUL",
+      "variant": "L",
+      "price": 80000,
+      "images": [
+        "/products/BossFranja/bossFranjaFrenteAzul.jpg",
+        "/products/BossFranja/bossFranjaAtrasAzul.jpg",
+        "/products/BossFranja/bossFranjaDetalleAzul.jpg",
+        "/products/BossFranja/bossFranjaDobladaAzul.jpg"
+      ],
+      "available_stock": 2
+    },
+
+    {
+      "_id": "boss-franja-negro-m",
+      "name": "Camiseta Hugo Boss con Franja Negra (M)",
+      "sku": "BOSS-FRANJA-NEGRO",
+      "variant": "M",
+      "price": 80000,
+      "images": [
+        "/products/BossFranja/bossFranjaFrenteNegra.jpg",
+        "/products/BossFranja/bossFranjaAtrasNegra.jpg",
+        "/products/BossFranja/bossFranjaDetalleNegra.jpg",
+        "/products/BossFranja/bossFranjaDobladaNegra.jpg"
+      ],
+      "available_stock": 3
+    },
+    {
+      "_id": "boss-franja-negro-l",
+      "name": "Camiseta Hugo Boss con Franja Negra (L)",
+      "sku": "BOSS-FRANJA-NEGRO",
+      "variant": "L",
+      "price": 80000,
+      "images": [
+        "/products/BossFranja/bossFranjaFrenteNegra.jpg",
+        "/products/BossFranja/bossFranjaAtrasNegra.jpg",
+        "/products/BossFranja/bossFranjaDetalleNegra.jpg",
+        "/products/BossFranja/bossFranjaDobladaNegra.jpg"
+      ],
+      "available_stock": 2
+    },
+
+    {
+      "_id": "boss-franja-beige-m",
+      "name": "Camiseta Hugo Boss con Franja Beige (M)",
+      "sku": "BOSS-FRANJA-BEIGE",
+      "variant": "M",
+      "price": 80000,
+      "images": [
+        "/products/BossFranja/bossFranjaFrenteBeige.jpg",
+        "/products/BossFranja/bossFranjaAtrasBeige.jpg",
+        "/products/BossFranja/bossFranjaDetalleBeige.jpg",
+        "/products/BossFranja/bossFranjaDobladaBeige.jpg"
+      ],
+      "available_stock": 3
+    },
+    {
+      "_id": "boss-franja-beige-l",
+      "name": "Camiseta Hugo Boss con Franja Beige (L)",
+      "sku": "BOSS-FRANJA-BEIGE",
+      "variant": "L",
+      "price": 80000,
+      "images": [
+        "/products/BossFranja/bossFranjaFrenteBeige.jpg",
+        "/products/BossFranja/bossFranjaAtrasBeige.jpg",
+        "/products/BossFranja/bossFranjaDetalleBeige.jpg",
+        "/products/BossFranja/bossFranjaDobladaBeige.jpg"
+      ],
+      "available_stock": 2
+    },
+
+    {
+      "_id": "boss-franja-rojo-m",
+      "name": "Camiseta Hugo Boss con Franja Roja (M)",
+      "sku": "BOSS-FRANJA-ROJO",
+      "variant": "M",
+      "price": 80000,
+      "images": [
+        "/products/BossFranja/bossFranjaFrenteRoja.jpg",
+        "/products/BossFranja/bossFranjaAtrasRoja.jpg",
+        "/products/BossFranja/bossFranjaDetalleRoja.jpg",
+        "/products/BossFranja/bossFranjaDobladaRoja.jpg"
+      ],
+      "available_stock": 3
+    },
+    {
+      "_id": "boss-franja-rojo-l",
+      "name": "Camiseta Hugo Boss con Franja Roja (L)",
+      "sku": "BOSS-FRANJA-ROJO",
+      "variant": "L",
+      "price": 80000,
+      "images": [
+        "/products/BossFranja/bossFranjaFrenteRoja.jpg",
+        "/products/BossFranja/bossFranjaAtrasRoja.jpg",
+        "/products/BossFranja/bossFranjaDetalleRoja.jpg",
+        "/products/BossFranja/bossFranjaDobladaRoja.jpg"
+      ],
+      "available_stock": 2
+    },
+
+    {
+      "_id": "boss-franja-verde-m",
+      "name": "Camiseta Hugo Boss con Franja Verde (M)",
+      "sku": "BOSS-FRANJA-VERDE",
+      "variant": "M",
+      "price": 80000,
+      "images": [
+        "/products/BossFranja/bossFranjaFrenteVerde.jpg",
+        "/products/BossFranja/bossFranjaAtrasVerde.jpg",
+        "/products/BossFranja/bossFranjaDetalleVerde.jpg",
+        "/products/BossFranja/bossFranjaDobladaVerde.jpg"
+      ],
+      "available_stock": 3
+    },
+    {
+      "_id": "boss-franja-verde-l",
+      "name": "Camiseta Hugo Boss con Franja Verde (L)",
+      "sku": "BOSS-FRANJA-VERDE",
+      "variant": "L",
+      "price": 80000,
+      "images": [
+        "/products/BossFranja/bossFranjaFrenteVerde.jpg",
+        "/products/BossFranja/bossFranjaAtrasVerde.jpg",
+        "/products/BossFranja/bossFranjaDetalleVerde.jpg",
+        "/products/BossFranja/bossFranjaDobladaVerde.jpg"
+      ],
+      "available_stock": 2
+    },
+
+    {
+      "_id": "bunny-polo-azul-m",
+      "name": "Camiseta Polo Psycho Bunny Azul (M)",
+      "sku": "BUNNY-POLO-AZUL",
+      "variant": "M",
+      "price": 90000,
+      "images": [
+        "/products/BunnyPolo/BunnyFrenteAzul.jpg",
+        "/products/BunnyPolo/BunnyAtrasAzul.jpg",
+        "/products/BunnyPolo/BunnyDetalleAzul.jpg",
+        "/products/BunnyPolo/BunnyDobladaAzul.jpg"
+      ],
+      "available_stock": 5
+    },
+    {
+      "_id": "bunny-polo-blanca-l",
+      "name": "Camiseta Polo Psycho Bunny Blanca (L)",
+      "sku": "BUNNY-POLO-BLANCO",
+      "variant": "L",
+      "price": 90000,
+      "images": [
+        "/products/BunnyPolo/BunnyFrenteBlanca.jpg",
+        "/products/BunnyPolo/BunnyAtrasBlanca.jpg",
+        "/products/BunnyPolo/BunnyDetalleBlanca.jpg",
+        "/products/BunnyPolo/BunnyDobladaBlanca.jpg"
+      ],
+      "available_stock": 3
+    },
+    {
+      "_id": "bunny-polo-gris-m",
+      "name": "Camiseta Polo Psycho Bunny Gris (M)",
+      "sku": "BUNNY-POLO-GRIS",
+      "variant": "M",
+      "price": 90000,
+      "images": [
+        "/products/BunnyPolo/BunnyFrenteGris.jpg",
+        "/products/BunnyPolo/BunnyAtrasGris.jpg",
+        "/products/BunnyPolo/BunnyDetalleGris.jpg",
+        "/products/BunnyPolo/BunnyDobladaGris.jpg"
+      ],
+      "available_stock": 4
+    },
+    {
+      "_id": "bunny-polo-gris-l",
+      "name": "Camiseta Polo Psycho Bunny Gris (L)",
+      "sku": "BUNNY-POLO-GRIS",
+      "variant": "L",
+      "price": 90000,
+      "images": [
+        "/products/BunnyPolo/BunnyFrenteGris.jpg",
+        "/products/BunnyPolo/BunnyAtrasGris.jpg",
+        "/products/BunnyPolo/BunnyDetalleGris.jpg",
+        "/products/BunnyPolo/BunnyDobladaGris.jpg"
+      ],
+      "available_stock": 2
+    },
+    {
+      "_id": "bunny-polo-negro-m",
+      "name": "Camiseta Polo Psycho Bunny Negra (M)",
+      "sku": "BUNNY-POLO-NEGRO",
+      "variant": "M",
+      "price": 90000,
+      "images": [
+        "/products/BunnyPolo/BunnyFrenteNegra.jpg",
+        "/products/BunnyPolo/BunnyAtrasNegra.jpg",
+        "/products/BunnyPolo/BunnyDetalleNegra.jpg",
+        "/products/BunnyPolo/BunnyDobladaNegra.jpg"
+      ],
+      "available_stock": 4
+    },
+    {
+      "_id": "bunny-polo-negro-l",
+      "name": "Camiseta Polo Psycho Bunny Negra (L)",
+      "sku": "BUNNY-POLO-NEGRO",
+      "variant": "L",
+      "price": 90000,
+      "images": [
+        "/products/BunnyPolo/BunnyFrenteNegra.jpg",
+        "/products/BunnyPolo/BunnyAtrasNegra.jpg",
+        "/products/BunnyPolo/BunnyDetalleNegra.jpg",
+        "/products/BunnyPolo/BunnyDobladaNegra.jpg"
+      ],
+      "available_stock": 2
+    },
+
+    {
+      "_id": "lacoste-polo-azul-m",
+      "name": "Camiseta Polo Lacoste Clásica Azul (M)",
+      "sku": "LACOSTE-POLO-AZUL",
+      "variant": "M",
+      "price": 90000,
+      "images": [
+        "/products/LacostePolo/LacosteFrenteAzul.jpg",
+        "/products/LacostePolo/LacosteAtrasAzul.jpg",
+        "/products/LacostePolo/LacosteDetalleAzul.jpg",
+        "/products/LacostePolo/LacosteDobladaAzul.jpg"
+      ],
+      "available_stock": 4
+    },
+    {
+      "_id": "lacoste-polo-blanca-l",
+      "name": "Camiseta Polo Lacoste Clásica Blanca (L)",
+      "sku": "LACOSTE-POLO-BLANCO",
+      "variant": "L",
+      "price": 90000,
+      "images": [
+        "/products/LacostePolo/LacosteFrenteBlanca.jpg",
+        "/products/LacostePolo/LacosteAtrasBlanca.jpg",
+        "/products/LacostePolo/LacosteDetalleBlanca.jpg",
+        "/products/LacostePolo/LacosteDobladaBlanca.jpg"
+      ],
+      "available_stock": 2
+    },
+    {
+      "_id": "lacoste-polo-negra-m",
+      "name": "Camiseta Polo Lacoste Clásica Negra (M)",
+      "sku": "LACOSTE-POLO-NEGRO",
+      "variant": "M",
+      "price": 90000,
+      "images": [
+        "/products/LacostePolo/LacosteFrenteNegra.jpg",
+        "/products/LacostePolo/LacosteAtrasNegra.jpg",
+        "/products/LacostePolo/LacosteDetalleNegra.jpg",
+        "/products/LacostePolo/LacosteDobladaNegra.jpg"
+      ],
+      "available_stock": 3
+    },
+    {
+      "_id": "lacoste-polo-negra-l",
+      "name": "Camiseta Polo Lacoste Clásica Negra (L)",
+      "sku": "LACOSTE-POLO-NEGRO",
+      "variant": "L",
+      "price": 90000,
+      "images": [
+        "/products/LacostePolo/LacosteFrenteNegra.jpg",
+        "/products/LacostePolo/LacosteAtrasNegra.jpg",
+        "/products/LacostePolo/LacosteDetalleNegra.jpg",
+        "/products/LacostePolo/LacosteDobladaNegra.jpg"
+      ],
+      "available_stock": 2
+    },
+    {
+      "_id": "lacoste-polo-verde-m",
+      "name": "Camiseta Polo Lacoste Verde (M)",
+      "sku": "LACOSTE-POLO-VERDE",
+      "variant": "M",
+      "price": 90000,
+      "images": [
+        "/products/LacostePolo/LacosteFrenteVerde.jpg",
+        "/products/LacostePolo/LacosteAtrasVerde.jpg",
+        "/products/LacostePolo/LacosteDetalleVerde.jpg",
+        "/products/LacostePolo/LacosteDobladaVerde.jpg"
+      ],
+      "available_stock": 3
+    },
+    {
+      "_id": "lacoste-polo-verde-l",
+      "name": "Camiseta Polo Lacoste Verde (L)",
+      "sku": "LACOSTE-POLO-VERDE",
+      "variant": "L",
+      "price": 90000,
+      "images": [
+        "/products/LacostePolo/LacosteFrenteVerde.jpg",
+        "/products/LacostePolo/LacosteAtrasVerde.jpg",
+        "/products/LacostePolo/LacosteDetalleVerde.jpg",
+        "/products/LacostePolo/LacosteDobladaVerde.jpg"
+      ],
+      "available_stock": 2
+    },
+    {
+      "_id": "lacoste-polo-beige-m",
+      "name": "Camiseta Polo Lacoste Clásica Beige (M)",
+      "sku": "LACOSTE-POLO-BEIGE",
+      "variant": "M",
+      "price": 90000,
+      "images": [
+        "/products/LacostePolo/LacosteFrenteBeige.jpg",
+        "/products/LacostePolo/LacosteAtrasBeige.jpg",
+        "/products/LacostePolo/LacosteDetalleBeige.jpg",
+        "/products/LacostePolo/LacosteDobladaBeige.jpg"
+      ],
+      "available_stock": 3
+    },
+    {
+      "_id": "lacoste-polo-beige-l",
+      "name": "Camiseta Polo Lacoste Clásica Beige (L)",
+      "sku": "LACOSTE-POLO-BEIGE",
+      "variant": "L",
+      "price": 90000,
+      "images": [
+        "/products/LacostePolo/LacosteFrenteBeige.jpg",
+        "/products/LacostePolo/LacosteAtrasBeige.jpg",
+        "/products/LacostePolo/LacosteDetalleBeige.jpg",
+        "/products/LacostePolo/LacosteDobladaBeige.jpg"
+      ],
+      "available_stock": 2
+    }
+  ]
+}
