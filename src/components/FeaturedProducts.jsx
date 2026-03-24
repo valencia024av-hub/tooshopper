@@ -47,7 +47,7 @@ export default function FeaturedProducts() {
         setErr('');
 
         // Llamada a tu API real
-        const response = await fetch('http://localhost:5000/api/products', { cache: 'no-store' });
+        const response = await fetch(`${import.meta.env.VITE_API_URL}/api/products`, { cache: 'no-store' });
         
         if (!response.ok) throw new Error('Error al conectar con el servidor');
         
